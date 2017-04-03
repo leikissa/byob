@@ -89,3 +89,48 @@ blockquote footer::before {
   border-right: 5px solid #eee;
 
 }
+
+.btn {
+  border: 1px solid rgb(117, 116, 117);
+  border-radius: 5px;
+  border-color: #ccc;
+  margin: 15px;
+  padding: 10px;
+  font-size: 14px;
+  text-decoration:none;
+}
+
+.btn-default {
+  color: #000;
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: #ccc;
+  cursor:pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #fff;
+}
+.btn-success {
+  color: #fff;
+  background-color: #fff;
+}
+.btn-info {
+  color: #fff;
+  background-color: #fff;
+}
+.btn-warning {
+  color: #fff;
+  background-color: #fff;
+}
+.btn-danger {
+  color: #fff;
+  background-color: #fff;
+}
+.btn-link {
+  color: blue;
+  background-color: #fff;
+}
