@@ -1,52 +1,243 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Demo</title>
-    <link href="css/byob.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>h1. Bootstrap heading</h1>
-    <h2>h2. Bootstrap heading</h2>
-    <h3>h3. Bootstrap heading</h3>
-    <h4>h4. Bootstrap heading</h4>
-    <h5>h5. Bootstrap heading</h5>
-    <h6>h6. Bootstrap heading</h6>
 
-    <h1>h1. Bootstrap heading <small>Secondary text</small></h1>
-    <h2>h2. Bootstrap heading <small>Secondary text</small></h2>
-    <h3>h3. Bootstrap heading <small>Secondary text</small></h3>
-    <h4>h4. Bootstrap heading <small>Secondary text</small></h4>
-    <h5>h5. Bootstrap heading <small>Secondary text</small></h5>
-    <h6>h6. Bootstrap heading <small>Secondary text</small></h6>
+<head>
+  <meta charset="utf-8">
+  <title>Demo</title>
+  <link href="css/byob.css" rel="stylesheet">
+</head>
 
-    <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
-    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+<body>
 
-    <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+  <h1>BYOB Documentation</h1>
 
-    <address>
+  <h2>Typography</h2>
+  <h3>Headings</h3>
+
+  <h1>h1. Bootstrap heading</h1>
+  <h2>h2. Bootstrap heading</h2>
+  <h3>h3. Bootstrap heading</h3>
+  <h4>h4. Bootstrap heading</h4>
+  <h5>h5. Bootstrap heading</h5>
+  <h6>h6. Bootstrap heading</h6>
+
+  <h1>h1. Bootstrap heading <small>Secondary text</small></h1>
+  <h2>h2. Bootstrap heading <small>Secondary text</small></h2>
+  <h3>h3. Bootstrap heading <small>Secondary text</small></h3>
+  <h4>h4. Bootstrap heading <small>Secondary text</small></h4>
+  <h5>h5. Bootstrap heading <small>Secondary text</small></h5>
+  <h6>h6. Bootstrap heading <small>Secondary text</small></h6>
+
+
+  <h3>Body copy</h3>
+
+  <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+  <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper
+    nulla non metus auctor fringilla.</p>
+
+  <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+
+  <address>
       <strong>Twitter, Inc.</strong><br>
       1355 Market Street, Suite 900<br>
       San Francisco, CA 94103<br>
       <abbr title="Phone">P:</abbr> (123) 456-7890
     </address>
 
-    <address>
+  <h3>Addresses</h3>
+
+  <address>
       <strong>Full Name</strong><br>
       <a href="mailto:#">first.last@example.com</a>
     </address>
 
-    <blockquote>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-    </blockquote>
 
-    <blockquote class="blockquote-reverse">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-    </blockquote>
+  <h3>Blockquotes</h3>
+
+  <blockquote>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+  </blockquote>
+
+  <blockquote class="blockquote-reverse">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+  </blockquote>
+
+  <h2>Buttons</h2>
+  <h3>Button tags</h3>
+  <a class="btn btn-default" href="#" role="button">Link</a>
+  <button class="btn btn-default" type="submit">Button</button>
+  <input class="btn btn-default" type="button" value="Input">
+  <input class="btn btn-default" type="submit" value="Submit">
+
+  <h3>Options</h3>
+  <!-- Standard button -->
+  <button type="button" class="btn btn-default">Default</button>
+
+  <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+  <button type="button" class="btn btn-primary">Primary</button>
+
+  <!-- Indicates a successful or positive action -->
+  <button type="button" class="btn btn-success">Success</button>
+
+  <!-- Contextual button for informational alert messages -->
+  <button type="button" class="btn btn-info">Info</button>
+
+  <!-- Indicates caution should be taken with this action -->
+  <button type="button" class="btn btn-warning">Warning</button>
+
+  <!-- Indicates a dangerous or potentially negative action -->
+  <button type="button" class="btn btn-danger">Danger</button>
+
+  <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+  <button type="button" class="btn btn-link">Link</button>
+
+  <h3>Sizes</h3>
+
+  <p>
+    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+    <button type="button" class="btn btn-default btn-lg">Large button</button>
+  </p>
+  <p>
+    <button type="button" class="btn btn-primary">Default button</button>
+    <button type="button" class="btn btn-default">Default button</button>
+  </p>
+  <p>
+    <button type="button" class="btn btn-primary btn-sm">Small button</button>
+    <button type="button" class="btn btn-default btn-sm">Small button</button>
+  </p>
+  <p>
+    <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+    <button type="button" class="btn btn-default btn-xs">Extra small button</button>
+  </p>
 
 
-  </body>
+  <h2>Button Groups: Toolbar</h2>
+
+  <div class="btn-toolbar" role="toolbar" aria-label="...">
+    <div class="btn-group" role="group" aria-label="...">...</div>
+    <div class="btn-group" role="group" aria-label="...">...</div>
+    <div class="btn-group" role="group" aria-label="...">...</div>
+  </div>
+
+  <h2>Breadcrumbs</h2>
+  <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Library</a></li>
+    <li class="active">Data</li>
+  </ol>
+
+  <h2>Pagination</h2>
+
+  <nav aria-label="Page navigation">
+    <ul class="pagination">
+      <li>
+        <a href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      <li>
+        <a href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <h2>Labels</h2>
+  <span class="label label-default">Default</span>
+  <span class="label label-primary">Primary</span>
+  <span class="label label-success">Success</span>
+  <span class="label label-info">Info</span>
+  <span class="label label-warning">Warning</span>
+  <span class="label label-danger">Danger</span>
+
+  <h2>Badges</h2>
+
+  <a href="#">Inbox <span class="badge">42</span></a>
+
+  <button class="btn btn-primary" type="button">
+  Messages <span class="badge">4</span>
+</button>
+
+  <h3>Adapts to active nav states</h3>
+  <ul class="nav nav-pills" role="tablist">
+    <li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>
+    <li role="presentation"><a href="#">Profile</a></li>
+    <li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
+  </ul>
+
+  <h2>Jumbotron</h2>
+
+  <div class="jumbotron">
+    <h1>Hello, world!</h1>
+    <p>...</p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+  </div>
+
+  <h2>Page Header</h2>
+  <div class="page-header">
+    <h1>Example page header <small>Subtext for header</small></h1>
+  </div>
+
+  <h2>Thumbnails</h2>
+  <div class="row">
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="..." alt="...">
+      </a>
+    </div>
+    ...
+  </div>
+
+  <h2>Alerts</h2>
+  <div class="alert alert-success" role="alert">...</div>
+<div class="alert alert-info" role="alert">...</div>
+<div class="alert alert-warning" role="alert">...</div>
+<div class="alert alert-danger" role="alert">...</div>
+<h3>Dismissable alerts</h3>
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>Warning!</strong> Better check yourself, you're not looking too good.
+</div>
+
+<h3>Links in alerts</h3>
+<div class="alert alert-success" role="alert">
+  <a href="#" class="alert-link">...</a>
+</div>
+<div class="alert alert-info" role="alert">
+  <a href="#" class="alert-link">...</a>
+</div>
+<div class="alert alert-warning" role="alert">
+  <a href="#" class="alert-link">...</a>
+</div>
+<div class="alert alert-danger" role="alert">
+  <a href="#" class="alert-link">...</a>
+</div>
+
+  <h2>List Group</h2>
+  <ul class="list-group">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Morbi leo risus</li>
+    <li class="list-group-item">Porta ac consectetur ac</li>
+    <li class="list-group-item">Vestibulum at eros</li>
+  </ul>
+  <h2>Panels</h2>
+  <div class="panel panel-default">
+  <div class="panel-body">
+    Basic panel example (note there are many more examples)
+  </div>
+</div>
+
+  <h2>Wells</h2>
+<div class="well">...</div>
+</body>
+
 </html>
