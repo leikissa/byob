@@ -94,7 +94,6 @@ blockquote footer::before {
   border: 1px solid rgb(117, 116, 117);
   border-radius: 5px;
   border-color: #ccc;
-  margin: 15px;
   padding: 10px;
   font-size: 14px;
   text-decoration:none;
@@ -133,4 +132,161 @@ blockquote footer::before {
 .btn-link {
   color: blue;
   background-color: #fff;
+}
+
+.btn-toolbar {
+  margin-left: -5px
+  float: left;
+}
+
+.btn-group {
+  margin-left: -1px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #2f6f9f;
+}
+
+ol {
+  margin-top: 0;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+}
+
+.breadcrumb {
+  padding: 8px 15px;
+  list-style: none;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+.breadcrumb li {
+  display: inline;
+}
+
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "/\00a0";
+}
+
+.pagination li {
+  display: inline-block;
+}
+
+.pagination a {
+  margin-left: -5px;
+  color: #337ab7;
+  float: left;
+  padding: 6px 12px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+
+.pagination a:hover {
+  background-color: #ccc;
+  color: #2f6f9f;
+}
+
+.pagination a:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.alert {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.alert .alert-link {
+  font-weight: 700;
+}
+
+.alert-success .alert-link {
+  color: #2b542c;
+}
+
+.alert-info .alert-link {
+  color: #245269;
+}
+
+.alert-warning .alert-link {
+  color: #66512c;
+}
+
+.alert-danger .alert-link {
+  color: #843534;
+}
+
+.list-group-item {
+  list-style: none;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  border: 1px solid #e3e3e3;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.list-group-item:last-child {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.panel {
+  padding: 15px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
+
+.well {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
 }
