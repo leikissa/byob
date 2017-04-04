@@ -270,6 +270,7 @@ blockquote footer::before {
   background-color: grey;
   display:inline-block;
   padding: 3px 7px;
+  margin-left: 3px;
   font-size: 12px;
   font-weight: 700;
   line-height: 1;
@@ -308,4 +309,44 @@ blockquote footer::before {
 .btn-danger .badge {
     color: rgb(217, 83, 79);
     background-color: #fff;
+}
+
+.jumbotron {
+  background-color: rgb(244, 241, 241);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 60px;
+}
+
+.jumbotron h1,
+.jumbotron .h1 {
+  font-size: 60px;
+}
+.jumbotron p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.page-header {
+  border-bottom: 1px solid rgb(233, 233, 233);
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+
+}
+
+.row {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.thumbnail {
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 5px;
+  padding: 5px;
+  padding-bottom: 2px;
+  margin: 10px;
+  float: left;
 }
