@@ -1,6 +1,6 @@
 /* To do list
  - Potentially finish button stuff (starting with block level buttons)
- - 
+ -
 
 */
 
@@ -227,4 +227,85 @@ blockquote footer::before {
   padding: 1px 5px;
   line-height: 1.5;
   border-radius: 3px;
+}
+
+.label {
+  display:inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+
+.label-default {
+  background-color: grey;
+}
+
+.label-primary {
+  background-color: rgb(51, 122, 183);
+}
+
+.label-success {
+  background-color: rgb(92, 184, 92);
+}
+
+.label-info {
+  background-color: rgb(91, 192, 222);
+}
+
+.label-warning {
+  background-color: rgb(240, 173, 78);
+}
+
+.label-danger {
+  background-color: rgb(217, 83, 79);
+}
+
+.badge {
+  background-color: grey;
+  display:inline-block;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+.btn .badge {
+    position: relative;
+    top: -1px;
+}
+
+.btn-primary .badge {
+    color: #337ab7;
+    background-color: #fff;
+}
+
+.btn-success .badge {
+    color: rgb(92, 184, 92);
+    background-color: #fff;
+}
+
+.btn-info .badge {
+    color: rgb(91, 192, 222);
+    background-color: #fff;
+}
+
+.btn-warning .badge {
+    color: rgb(240, 173, 78);
+    background-color: #fff;
+}
+
+.btn-danger .badge {
+    color: rgb(217, 83, 79);
+    background-color: #fff;
 }
