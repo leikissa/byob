@@ -1,0 +1,344 @@
+/* To do list
+ - Potentially finish button stuff (starting with block level buttons)
+ -
+
+*/
+
+html {
+  font-family: sans-serif;
+}
+
+h1, .h1 {
+  font-weight: 600;
+  font-size: 36;
+}
+
+h2, .h2 {
+  font-weight: 600;
+  font-size: 30;
+}
+
+h3, .h3 {
+  font-weight: 600;
+  font-size: 24;
+}
+
+h4, .h4 {
+  font-weight: 600;
+  font-size: 18;
+}
+
+h5, .h5 {
+  font-weight: 600;
+  font-size: 14;
+}
+
+h6, .h6 {
+  font-weight: 600;
+  font-size: 12;
+}
+
+small, .small {
+  color: rgb(99, 99, 99);
+  font-size: 85%;
+  font-weight: 500;
+}
+
+p, .p {
+  font-size: 14px;
+  line-height: 1.428;
+  margin-bottom: 10px;
+}
+
+body, .body {
+  font-size: 14px;
+  line-height: 1.428;
+}
+
+.lead {
+  font-size: 21px;
+}
+
+address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.428;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5;
+  border-left: 5px solid #eee;
+}
+
+blockquote footer {
+  color: rgb(98, 98, 98);
+}
+
+blockquote footer::before {
+  content: '\2014 \00A0';
+}
+
+.blockquote-reverse {
+  text-align: right;
+  border-right: 5px solid #eee;
+}
+
+.btn {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-default {
+  border: 1px solid rgb(117, 116, 117);
+  color: #000;
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(51, 122, 183);
+  border-color: rgb(41, 110, 168);
+}
+
+.btn-primary:hover {
+  background-color: rgb(41, 110, 168);
+  border-color: rgb(37, 97, 148);
+}
+
+.btn-primary:active {
+  background-color: rgb(37, 97, 148);
+  border-color: rgb(37, 88, 131);
+}
+
+.btn-success {
+  color: #fff;
+  background-color: rgb(92, 184, 92);
+  border-color: rgb(77, 162, 77);
+}
+
+.btn-success:hover {
+  background-color: rgb(77, 162, 77);
+  border-color: rgb(72, 148, 72);
+}
+
+.btn-success:active {
+  background-color: rgb(72, 148, 72);
+  border-color: rgb(69, 138, 69);
+}
+
+.btn-info {
+  color: #fff;
+  background-color: rgb(91, 192, 222);
+  border-color: rgb(82, 175, 203);
+}
+
+.btn-info:hover {
+  background-color: rgb(82, 175, 203);
+  border-color: rgb(72, 159, 185);
+}
+
+.btn-info:active {
+  background-color: rgb(72, 159, 185);
+  border-color: rgb(63, 143, 167);
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: rgb(240, 173, 78);
+  border-color: rgb(223, 160, 71);
+}
+
+.btn-warning:hover {
+  background-color: rgb(223, 160, 71);
+  border-color: rgb(205, 147, 65);
+}
+
+.btn-warning:active {
+  background-color: rgb(205, 147, 65);
+  border-color: rgb(189, 135, 58);
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: rgb(217, 83, 79);
+  border-color: rgb(199, 75, 72);
+}
+
+.btn-danger:hover {
+  background-color: rgb(199, 75, 72);
+  border-color: rgb(181, 67, 64);
+}
+
+.btn-danger:active {
+  background-color: rgb(181, 67, 64);
+  border-color: rgb(166, 61, 58);
+}
+
+.btn-link {
+  color: blue;
+  background-color: #fff;
+  border: none;
+}
+
+.btn-link:hover {
+  background-color: #ccc;
+  border-color: rgb(117, 116, 117);
+}
+
+.btn-lg {
+  font-size: 18px;
+  padding: 10px 16px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-sm {
+  font-size: 12px;
+  padding: 5px 10px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.btn-xs {
+  font-size: 12px;
+  padding: 1px 5px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+
+.label-default {
+  background-color: grey;
+}
+
+.label-primary {
+  background-color: rgb(51, 122, 183);
+}
+
+.label-success {
+  background-color: rgb(92, 184, 92);
+}
+
+.label-info {
+  background-color: rgb(91, 192, 222);
+}
+
+.label-warning {
+  background-color: rgb(240, 173, 78);
+}
+
+.label-danger {
+  background-color: rgb(217, 83, 79);
+}
+
+.badge {
+  background-color: grey;
+  display: inline-block;
+  padding: 3px 7px;
+  margin-left: 3px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+.btn .badge {
+  position: relative;
+  top: -1px;
+}
+
+.btn-primary .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+
+.btn-success .badge {
+  color: rgb(92, 184, 92);
+  background-color: #fff;
+}
+
+.btn-info .badge {
+  color: rgb(91, 192, 222);
+  background-color: #fff;
+}
+
+.btn-warning .badge {
+  color: rgb(240, 173, 78);
+  background-color: #fff;
+}
+
+.btn-danger .badge {
+  color: rgb(217, 83, 79);
+  background-color: #fff;
+}
+
+:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.jumbotron {
+  background-color: rgb(244, 241, 241);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 60px;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+  font-size: 60px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.page-header {
+  border-bottom: 1px solid rgb(233, 233, 233);
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 5px;
+  padding: 5px;
+  padding-bottom: 2px;
+  margin: 10px;
+  float: left;
+}
