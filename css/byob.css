@@ -1,12 +1,8 @@
-/* To do list
- - Potentially finish button stuff (starting with block level buttons)
- -
-
-*/
-
 html {
   font-family: sans-serif;
 }
+
+/* Headings */
 
 h1, .h1 {
   font-size: 36px;
@@ -44,6 +40,8 @@ small, .small {
   font-weight: 500;
 }
 
+/* Body Copy */
+
 p, .p {
   font-size: 14px;
   line-height: 1.428;
@@ -56,14 +54,30 @@ body, .body {
   padding: 20px;
 }
 
-xmp {
-  background-color: rgb(240, 240, 240);
-  border: 1px solid #ccc;
-}
-
 .lead {
   font-size: 21px;
 }
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2f6f9f;
+  text-decoration: underline;
+}
+
+ol {
+  margin-top: 0;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+}
+
+/* Addresses */
 
 address {
   font-style: normal;
@@ -71,6 +85,8 @@ address {
   line-height: 1.428;
   margin-bottom: 20px;
 }
+
+/* Blockquotes */
 
 blockquote {
   border-left: 5px solid #eee;
@@ -91,6 +107,8 @@ blockquote footer::before {
   border-right: 5px solid #eee;
   text-align: right;
 }
+
+/* Buttons */
 
 .btn {
   border: 1px solid #ccc;
@@ -223,6 +241,13 @@ blockquote footer::before {
   padding: 1px 5px;
 }
 
+:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Labels */
+
 .label {
   border-radius: .25em;
   color: #fff;
@@ -259,6 +284,8 @@ blockquote footer::before {
 .label-danger {
   background-color: rgb(217, 83, 79);
 }
+
+/* Badges */
 
 .badge {
   background-color: grey;
@@ -305,10 +332,7 @@ blockquote footer::before {
   color: rgb(217, 83, 79);
 }
 
-:disabled {
-  cursor: not-allowed;
-  opacity: 0.5;
-}
+/* Jumbotron */
 
 .jumbotron {
   background-color: rgb(244, 241, 241);
@@ -326,12 +350,16 @@ blockquote footer::before {
   font-weight: 400;
 }
 
+/* Page header */
+
 .page-header {
   border-bottom: 1px solid rgb(233, 233, 233);
   margin-top: 50px;
   margin-bottom: 10px;
   padding-bottom: 5px;
 }
+
+/* Thumbnails */
 
 .row {
   display: flex;
@@ -347,6 +375,8 @@ blockquote footer::before {
   padding-bottom: 2px;
   padding: 5px;
 }
+
+/* Button toolbar */
 
 .btn-toolbar {
   float: left;
@@ -379,24 +409,7 @@ blockquote footer::before {
   border-top-right-radius: 4px;
 }
 
-a {
-  color: #337ab7;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #2f6f9f;
-  text-decoration: underline;
-}
-
-ol {
-  margin-top: 0;
-}
-
-ul {
-  display: block;
-  list-style-type: disc;
-}
+/* Breadcrumb */
 
 .breadcrumb {
   background-color: #f2f2f2;
@@ -411,9 +424,11 @@ ul {
 
 .breadcrumb > li + li:before {
   color: #ccc;
-  content: "/\00a0";
+  content: '/\00a0';
   padding: 0 5px;
 }
+
+/* Pagination */
 
 .pagination li {
   border-right: 0px;
@@ -448,9 +463,11 @@ ul {
 
 .pagination::after {
   clear: both;
-  content: "";
+  content: '';
   display: table;
 }
+
+/* Alerts */
 
 .alert {
   border-radius: 4px;
@@ -503,6 +520,8 @@ ul {
   color: #843534;
 }
 
+/* List groups */
+
 .list-group-item {
   border: 1px solid #e3e3e3;
   list-style: none;
@@ -520,11 +539,15 @@ ul {
   border-bottom-right-radius: 4px;
 }
 
+/* Panels */
+
 .panel {
   border-radius: 4px;
   border: 1px solid #e3e3e3;
   padding: 15px;
 }
+
+/* Well */
 
 .well {
   background-color: #f5f5f5;
@@ -533,6 +556,8 @@ ul {
   padding: 20px;
 }
 
+/* Example and code example formatting */
+
 .example {
   border: 1px solid #e3e3e3;
   margin-bottom: 20px;
@@ -540,16 +565,21 @@ ul {
 }
 
 .example::before {
-  content: "Example Implementation \A";
+  content: 'Example Implementation \A';
   display: block;
   font-weight: 600;
   margin-bottom: 20px;
   text-decoration: underline;
 }
 
+xmp {
+  background-color: rgb(240, 240, 240);
+  border: 1px solid #ccc;
+}
+
 .code::before {
   clear: both;
-  content: "Example Code";
+  content: 'Example Code';
   display: table;
   font-weight: 600;
   margin-top: 20px;
