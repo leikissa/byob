@@ -43,34 +43,34 @@ Read and reference good resources on the web to build your conceptual understand
 
 ### Required
 
-- [ ] Artifact is a GitHub repository (if you're looking for a name, why not "shoelace" ;)
-- [ ] All CSS files are in a `css/` directory.
-- [ ] Main page is called `demo.html` and includes an example of each component.
-- [ ] No external CSS libraries/modules are used. Everything is written from scratch.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
+- [x] Artifact is a GitHub repository (if you're looking for a name, why not "shoelace" ;)
+- [x] All CSS files are in a `css/` directory.
+- [x] Main page is called `demo.html` and includes an example of each component.
+- [x] No external CSS libraries/modules are used. Everything is written from scratch.
+- [x] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 ### Stage 1: Reverse Engineer Bootstrap Components
 
-- [ ] Styles include replicas of Bootstrap's typography:
-  - [ ] [Headings](http://getbootstrap.com/css/#type-headings)
-  - [ ] [Body copy](http://getbootstrap.com/css/#type-body-copy)
-  - [ ] [Addresses](http://getbootstrap.com/css/#type-addresses)
-  - [ ] [Blockquotes](http://getbootstrap.com/css/#type-blockquotes)
-- [ ] Styles include replicas of Bootstrap's [buttons](http://getbootstrap.com/css/#buttons)
-- [ ] Components include replicas of Bootstrap's:
-  - [ ] [Button Groups: Toolbar](http://getbootstrap.com/components/#btn-groups-toolbar)
-  - [ ] [Breadcrumbs](http://getbootstrap.com/components/#breadcrumbs)
-  - [ ] [Pagination](http://getbootstrap.com/components/#pagination)
-  - [ ] [Labels](http://getbootstrap.com/components/#labels)
-  - [ ] [Badges](http://getbootstrap.com/components/#badges)
-  - [ ] [Jumbotron](http://getbootstrap.com/components/#jumbotron)
-  - [ ] [Page Header](http://getbootstrap.com/components/#page-header)
-  - [ ] [Thumbnails](http://getbootstrap.com/components/#thumbnails)
-  - [ ] [Alerts](http://getbootstrap.com/components/#alerts)
-  - [ ] [List Group](http://getbootstrap.com/components/#list-group)
-  - [ ] [Panels](http://getbootstrap.com/components/#panels)
-  - [ ] [Wells](http://getbootstrap.com/components/#wells)
-- [ ] Each component is featured on the demo HTML page `demo.html` under its own header along with the code used to generate it (for a simple example of what this could look like, see https://purecss.io/buttons/)
+- [x] Styles include replicas of Bootstrap's typography:
+  - [x] [Headings](http://getbootstrap.com/css/#type-headings)
+  - [x] [Body copy](http://getbootstrap.com/css/#type-body-copy)
+  - [x] [Addresses](http://getbootstrap.com/css/#type-addresses)
+  - [x] [Blockquotes](http://getbootstrap.com/css/#type-blockquotes)
+- [x] Styles include replicas of Bootstrap's [buttons](http://getbootstrap.com/css/#buttons)
+- [x] Components include replicas of Bootstrap's:
+  - [x] [Button Groups: Toolbar](http://getbootstrap.com/components/#btn-groups-toolbar)
+  - [x] [Breadcrumbs](http://getbootstrap.com/components/#breadcrumbs)
+  - [x] [Pagination](http://getbootstrap.com/components/#pagination)
+  - [x] [Labels](http://getbootstrap.com/components/#labels)
+  - [x] [Badges](http://getbootstrap.com/components/#badges)
+  - [x] [Jumbotron](http://getbootstrap.com/components/#jumbotron)
+  - [x] [Page Header](http://getbootstrap.com/components/#page-header)
+  - [x] [Thumbnails](http://getbootstrap.com/components/#thumbnails)
+  - [x] [Alerts](http://getbootstrap.com/components/#alerts)
+  - [x] [List Group](http://getbootstrap.com/components/#list-group)
+  - [x] [Panels](http://getbootstrap.com/components/#panels)
+  - [x] [Wells](http://getbootstrap.com/components/#wells)
+- [x] Each component is featured on the demo HTML page `demo.html` under its own header along with the code used to generate it (for a simple example of what this could look like, see https://purecss.io/buttons/)
 
 ### Stage 2: Modify the Styles
 
