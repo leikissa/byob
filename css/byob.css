@@ -546,14 +546,17 @@ ul {
 }
 
 .example::before {
-  content: "Example Implementation";
+  content: "Example Implementation \A";
+  display: block;
   font-weight: 600;
   text-decoration: underline;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .code::before {
   content: "Example Code";
+  clear: both;
+  display: table;
   font-weight: 600;
   margin-top: 20px;
 }
