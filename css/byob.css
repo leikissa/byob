@@ -10,32 +10,32 @@ html {
 
 h1, .h1 {
   font-weight: 600;
-  font-size: 36;
+  font-size: 36px;
 }
 
 h2, .h2 {
   font-weight: 600;
-  font-size: 30;
+  font-size: 30px;
 }
 
 h3, .h3 {
   font-weight: 600;
-  font-size: 24;
+  font-size: 24px;
 }
 
 h4, .h4 {
   font-weight: 600;
-  font-size: 18;
+  font-size: 18px;
 }
 
 h5, .h5 {
   font-weight: 600;
-  font-size: 14;
+  font-size: 14px;
 }
 
 h6, .h6 {
   font-weight: 600;
-  font-size: 12;
+  font-size: 12px;
 }
 
 small, .small {
@@ -75,7 +75,7 @@ address {
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
-  font-size: 17.5;
+  font-size: 17.5px;
   border-left: 5px solid #eee;
 }
 
@@ -184,7 +184,7 @@ blockquote footer::before {
 
 .btn-danger:hover {
   background-color: rgb(199, 75, 72);
-  border-color: rgb(181, 67, 64);
+  border-color: rgb(158, 57, 55);
 }
 
 .btn-danger:active {
@@ -350,7 +350,7 @@ blockquote footer::before {
 }
 
 .btn-toolbar {
-  margin-left: -5px
+  margin-left: -5px;
   float: left;
 }
 
@@ -378,11 +378,6 @@ blockquote footer::before {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   border-right: 1px solid #ddd;
-}
-
-.btn-group button:middle-child {
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
 }
 
 a {
