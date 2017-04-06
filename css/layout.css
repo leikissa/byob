@@ -5,7 +5,12 @@
   color: white;
 }
 
+.name {
+  font-size: 50px;
+}
+
 .container {
+  background-color: white;
   border-radius: 4px;
   padding: 15px;
   border: 1px solid #e3e3e3;
@@ -41,9 +46,10 @@ body {
 }
 
 xmp {
+  overflow: auto;
   background-color: rgb(240, 240, 240);
   border: 1px solid #ccc;
-  padding-left: 15px;
+  padding-left: 3%;
 }
 
 .code::before {
