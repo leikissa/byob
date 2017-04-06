@@ -96,7 +96,7 @@ body {
   color: #a4a4a4;
 }
 
-xmp {
+pre {
   overflow: auto;
   background-color: rgb(240, 240, 240);
   border: 1px solid #ccc;
