@@ -8,16 +8,16 @@
   <link href="css/byob.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,500|Exo:400,500" rel="stylesheet">
 </head>
-
-<body>
+<header>
   <div class="main-header">
     <h1 class="name">BYOB Documentation</h1>
   </div>
+</header>
 
+<body>
   <div class="wrap">
-    <h2>Typography</h2>
     <div class="container">
-      <h3 class="header">Headings</h3>
+      <h2 class="header">Headings</h2>
       <div class="example">
         <h1>h1. BYOB heading</h1>
         <h2>h2. BYOB heading</h2>
@@ -58,7 +58,7 @@
     </div>
 
     <div class="container">
-      <h3 class="header">Body copy</h3>
+      <h2 class="header">Body copy</h2>
       <div class="example">
         <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
         <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper
@@ -71,7 +71,7 @@
         </xmp>
       </div>
 
-      <h4>Lead body copy</h4>
+      <h3>Lead body copy</h3>
       <div class="example">
         <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
       </div>
@@ -83,7 +83,7 @@
     </div>
 
     <div class="container">
-      <h3 class="header">Addresses</h3>
+      <h2 class="header">Addresses</h2>
 
       <div class="example">
         <address>
@@ -117,7 +117,7 @@
     </div>
 
     <div class="container">
-      <h3 class="header">Blockquotes</h3>
+      <h2 class="header">Blockquotes</h2>
 
       <div class="example">
         <blockquote>
@@ -152,10 +152,8 @@
       </div>
     </div>
 
-    <h2>Buttons</h2>
-
     <div class="container">
-    <h3 class="header">Button tags</h3>
+    <h2 class="header">Buttons</h2>
 
     <div class="example">
       <a class="btn btn-default" href="#" role="button">Link</a>
@@ -188,9 +186,7 @@
 <button type="button" class="btn btn-link">Link</button>
       </xmp>
     </div>
-  </div>
 
-  <div class="container">
     <h3 class="header">Options</h3>
 
     <div class="example">
@@ -240,9 +236,7 @@
 <button type="button" class="btn btn-link">Link</button>
       </xmp>
     </div>
-</div>
 
-    <div class="container">
     <h3 class="header">Sizes</h3>
 
     <div class="example">
@@ -284,9 +278,7 @@
 </p>
       </xmp>
     </div>
-</div>
 
-    <div class="container">
     <h3 class="header">Disabled</h3>
 
     <div class="example">
@@ -300,10 +292,10 @@
 <button type="button" class="btn btn-default btn-lg" disabled="disabled">Button</button>
       </xmp>
     </div>
-    </div>
+  </div>
 
     <div class="container">
-    <h3 class="header">Button Groups: Toolbar</h3>
+    <h2 class="header">Button Groups: Toolbar</h2>
 
     <div class="example">
       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
@@ -341,7 +333,7 @@
     </div>
 
     <div class="container">
-    <h3 class="header">Breadcrumbs</h3>
+    <h2 class="header">Breadcrumbs</h2>
 
     <div class="example">
       <ol class="breadcrumb">
@@ -362,7 +354,7 @@
     </div>
 
     <div class="container">
-    <h3 class="header">Pagination</h3>
+    <h2 class="header">Pagination</h2>
     <div class="example">
       <nav aria-label="Page navigation">
         <ul class="pagination">
@@ -411,7 +403,7 @@
     </div>
 
     <div class="container">
-    <h3 class="header">Labels</h3>
+    <h2 class="header">Labels</h2>
 
     <div class="example">
       <span class="label label-default">Default</span>
@@ -435,7 +427,7 @@
     </div>
 
     <div class="container">
-    <h3 class="header">Badges</h2>
+    <h2 class="header">Badges</h2>
 
     <div class="example">
       <a href="#">Inbox <span class="badge">42</span></a>
@@ -457,7 +449,7 @@
     </div>
 
     <div class="container">
-    <h3 class="header">Jumbotron</h3>
+    <h2 class="header">Jumbotron</h2>
 
     <div class="example">
       <div class="jumbotron">
@@ -479,7 +471,7 @@
     </div>
 
     <div class="container">
-    <h3 class="header">Page Header</h3>
+    <h2 class="header">Page Header</h2>
 
     <div class="example">
       <div class="page-header">
@@ -497,24 +489,24 @@
     </div>
 
     <div class="container">
-    <h3 class="header">Thumbnails</h3>
+    <h2 class="header">Thumbnails</h2>
 
     <div class="example">
       <div class="row">
         <a href="#" class="thumbnail">
-          <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMxOSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTViMzljYTZlYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxNnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNWIzOWNhNmVjMSI+PHJlY3Qgd2lkdGg9IjMxOSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMTcuOTg0Mzc1IiB5PSI5Ny4yIj4zMTl4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+          <img src="img/thumbnail.svg"
               alt="Generic placeholder thumbnail">
         </a>
         <a href="#" class="thumbnail">
-          <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMxOSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTViMzljYTZlYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxNnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNWIzOWNhNmVjMSI+PHJlY3Qgd2lkdGg9IjMxOSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMTcuOTg0Mzc1IiB5PSI5Ny4yIj4zMTl4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+          <img src="img/thumbnail.svg"
               alt="Generic placeholder thumbnail">
         </a>
         <a href="#" class="thumbnail">
-          <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMxOSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTViMzljYTZlYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxNnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNWIzOWNhNmVjMSI+PHJlY3Qgd2lkdGg9IjMxOSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMTcuOTg0Mzc1IiB5PSI5Ny4yIj4zMTl4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+          <img src="img/thumbnail.svg"
               alt="Generic placeholder thumbnail">
         </a>
         <a href="#" class="thumbnail">
-          <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMxOSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTViMzljYTZlYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxNnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNWIzOWNhNmVjMSI+PHJlY3Qgd2lkdGg9IjMxOSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMTcuOTg0Mzc1IiB5PSI5Ny4yIj4zMTl4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+          <img src="img/thumbnail.svg"
               alt="Generic placeholder thumbnail">
         </a>
       </div>
@@ -536,7 +528,7 @@
     </div>
 
     <div class="container">
-    <h3 class="header">Alerts</h3>
+    <h2 class="header">Alerts</h2>
     <div class="example">
       <div class="alert alert-success" role="alert">
         <p><strong>Well done!</strong> You successfully read this important alert message.</p>
@@ -570,17 +562,17 @@
     </div>
 
     <div class="container">
-    <h3 class="header">Dismissable alerts</h3>
+    <h2 class="header">Dismissable alerts</h2>
     <div class="example">
       <div class="alert alert-warning alert-dismissible" role="alert">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="$('.alert-dismissible').hide()"><span aria-hidden="true">&times;</span></button>
         <strong>Warning!</strong> Better check yourself, you're not looking too good.
       </div>
     </div>
     <div class="code">
       <xmp>
 <div class="alert alert-warning alert-dismissible" role="alert">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="$('.alert-dismissible').hide()">
   <span aria-hidden="true">&times;</span></button>
   <strong>Warning!</strong> Better check yourself, you're not looking too good.
 </div>
@@ -589,7 +581,7 @@
   </div>
 
     <div class="container">
-    <h3 class="header">Links in alerts</h3>
+    <h2 class="header">Links in alerts</h2>
     <div class="example">
       <div class="alert alert-success" role="alert">
         <p><strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message.</a></p>
@@ -623,7 +615,7 @@
     </div>
 
     <div class="container">
-    <h3 class="header">List Group</h3>
+    <h2 class="header">List Group</h2>
     <div class="example">
       <ul class="list-group">
         <li class="list-group-item">Cras justo odio</li>
@@ -647,7 +639,7 @@
     </div>
 
     <div class="container">
-    <h3 class="header">Panels</h3>
+    <h2 class="header">Panels</h2>
     <div class="example">
       <div class="panel panel-default">
         <div class="panel-body">
@@ -667,7 +659,7 @@
     </div>
 
     <div class="container">
-    <h3 class="header">Wells</h3>
+    <h2 class="header">Wells</h2>
     <div class="example">
       <div class="well">
         <p>Look, I'm in a well!</p>
@@ -682,7 +674,7 @@
     </div>
     </div>
   </div>
-
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 </body>
 
 </html>
