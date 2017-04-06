@@ -1,0 +1,56 @@
+.main-header {
+  background-color: #84c5e4;
+  padding: .5em 0;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  border-radius: 4px;
+  padding: 15px;
+  border: 1px solid #e3e3e3;
+  margin-bottom: 10px;
+}
+
+.header {
+  margin-top: 0;
+  border-bottom: 1px solid lightgray;
+}
+
+body {
+  margin: 0;
+}
+
+.wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Example and code example formatting */
+
+.example {
+  margin-bottom: 20px;
+}
+
+.example::before {
+  content: 'Example Implementation \A';
+  display: block;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #a4a4a4;
+}
+
+xmp {
+  background-color: rgb(240, 240, 240);
+  border: 1px solid #ccc;
+  padding-left: 15px;
+}
+
+.code::before {
+  clear: both;
+  content: 'Example Code';
+  display: table;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #a4a4a4;
+}
