@@ -76,10 +76,10 @@ Read and reference good resources on the web to build your conceptual understand
 
 Now it's time to make it look good 😎. Make changes to the CSS (not the HTML) to apply your own styles to the design.
 
-- [ ] Demo page `demo.html` shows components/elements with customized styles, including (but not limited to):
-  - [ ] A different typeface (take a look at [Google Fonts][google-fonts] for inspiration)
-  - [ ] A unique and different color palette (take a look at [Adobe Color CC][adobe-color] for inspiration)
-- [ ] Style should be cohesive, connecting the elements as a whole. For example, a similar color palette is chosen.
+- [x] Demo page `demo.html` shows components/elements with customized styles, including (but not limited to):
+  - [x] A different typeface (take a look at [Google Fonts][google-fonts] for inspiration)
+  - [x] A unique and different color palette (take a look at [Adobe Color CC][adobe-color] for inspiration)
+- [x] Style should be cohesive, connecting the elements as a whole. For example, a similar color palette is chosen.
 
 ### Stretch
 
