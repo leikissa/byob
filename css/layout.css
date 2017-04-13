@@ -27,7 +27,7 @@ header {
   background-color: white;
   border-radius: 4px;
   padding: 15px;
-  border: 1px solid #e3e3e3;
+  border: 1px solid #cfc6c6;
   margin-bottom: 10px;
 }
 
@@ -50,7 +50,7 @@ body {
 
 .wrap {
   /*padding-left: 250px;*/
-  
+
   width: 70%;
   margin: 150px auto;
 }
