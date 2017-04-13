@@ -23,6 +23,13 @@ header {
   -moz-transition: all 0.4s ease-in-out ;
 }
 
+a[name] {
+  display:block;
+  position:relative;
+  top:-160px;
+  visibility:hidden;
+}
+
 .container {
   background-color: white;
   border-radius: 4px;
@@ -50,12 +57,12 @@ body {
 
 .wrap {
   /*padding-left: 250px;*/
-
   width: 70%;
   margin: 150px auto;
 }
 
 .main-content {
+  position:relative;
   width: 90%;
   float: right;
 }
@@ -90,7 +97,7 @@ body {
   color: #a4a4a4;
 }
 
-xmp {
+pre {
   overflow: auto;
   background-color: rgb(240, 240, 240);
   border: 1px solid #ccc;

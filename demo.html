@@ -4,607 +4,705 @@
 <head>
   <meta charset="utf-8">
   <title>BYOB Demo</title>
+  <link href="css/layout.css" rel="stylesheet">
   <link href="css/byob.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,500|Exo:400,500" rel="stylesheet">
 </head>
+<header>
+  <div class="main-header">
+    <h1 class="name">BYOB Documentation</h1>
+  </div>
+</header>
 
 <body>
+  <div class="wrap">
 
-  <h1>BYOB Documentation</h1>
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li><a href="#">Headings</a></li>
+        <li><a href="#body-copy">Body copy</a></li>
+        <li><a href="#addresses">Addresses</a></li>
+        <li><a href="#blockquotes">Blockquotes</a></li>
+        <li><a href="#buttons">Buttons</a></li>
+        <li><a href="#button-groups">Button Groups: Toolbar</a></li>
+        <li><a href="#breadcrumbs">Breadcrumbs</a></li>
+        <li><a href="#pagination">Pagination</a></li>
+        <li><a href="#labels">Labels</a></li>
+        <li><a href="#jumbotron">Jumbotron</a></li>
+        <li><a href="#page-header">Page Header</a></li>
+        <li><a href="#thumbnails">Thumbnails</a></li>
+        <li><a href="#alerts">Alerts</a></li>
+        <li><a href="#list-group">List Group</a></li>
+        <li><a href="#panels">Panels</a></li>
+        <li><a href="#wells">Wells</a></li>
+      </ul>
+    </div>
 
-  <h2>Typography</h2>
-  <h3>Headings</h3>
-<div class="example">
-  <h1>h1. BYOB heading</h1>
-  <h2>h2. BYOB heading</h2>
-  <h3>h3. BYOB heading</h3>
-  <h4>h4. BYOB heading</h4>
-  <h5>h5. BYOB heading</h5>
-  <h6>h6. BYOB heading</h6>
-</div>
-<div class="code">
-  <xmp>
-    <h1>h1. BYOB heading</h1>
-    <h2>h2. BYOB heading</h2>
-    <h3>h3. BYOB heading</h3>
-    <h4>h4. BYOB heading</h4>
-    <h5>h5. BYOB heading</h5>
-    <h6>h6. BYOB heading</h6>
-  </xmp>
-</div>
-<div class="example">
-  <h1>h1. BYOB heading <small>Secondary text</small></h1>
-  <h2>h2. BYOB heading <small>Secondary text</small></h2>
-  <h3>h3. BYOB heading <small>Secondary text</small></h3>
-  <h4>h4. BYOB heading <small>Secondary text</small></h4>
-  <h5>h5. BYOB heading <small>Secondary text</small></h5>
-  <h6>h6. BYOB heading <small>Secondary text</small></h6>
-</div>
-<div class="code">
-  <xmp>
-    <h1>h1. BYOB heading <small>Secondary text</small></h1>
-    <h2>h2. BYOB heading <small>Secondary text</small></h2>
-    <h3>h3. BYOB heading <small>Secondary text</small></h3>
-    <h4>h4. BYOB heading <small>Secondary text</small></h4>
-    <h5>h5. BYOB heading <small>Secondary text</small></h5>
-    <h6>h6. BYOB heading <small>Secondary text</small></h6>
+    <!-- Page content -->
+    <div class="main-content">
+      <div class="container">
+        <h2 class="header">Headings</h2>
+        <a class="anchor" name="headings"></a>
+        <div class="example">
+          <h1>h1. BYOB heading</h1>
+          <h2>h2. BYOB heading</h2>
+          <h3>h3. BYOB heading</h3>
+          <h4>h4. BYOB heading</h4>
+          <h5>h5. BYOB heading</h5>
+          <h6>h6. BYOB heading</h6>
+          <div class="code">
+            <pre><code>
+&lt;h1&gt;h1. BYOB heading&lt;/h1&gt;
+&lt;h2&gt;h2. BYOB heading&lt;/h2&gt;
+&lt;h3&gt;h3. BYOB heading&lt;/h3&gt;
+&lt;h4&gt;h4. BYOB heading&lt;/h4&gt;
+&lt;h5&gt;h5. BYOB heading&lt;/h5&gt;
+&lt;h6&gt;h6. BYOB heading&lt;/h6&gt;
+          </code></pre>
+          </div>
+        </div>
 
-  </xmp>
-</div>
-  <h3>Body copy</h3>
-<div class="example">
-  <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
-  <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper
-    nulla non metus auctor fringilla.</p>
-</div>
-<div class="code">
-  <xmp>
-    <p>Nullam quis risus...</p>
-    <p>Cum sociis...</p>
-  </xmp>
-</div>
+        <div class="example">
+          <h1>h1. BYOB heading <small>Secondary text</small></h1>
+          <h2>h2. BYOB heading <small>Secondary text</small></h2>
+          <h3>h3. BYOB heading <small>Secondary text</small></h3>
+          <h4>h4. BYOB heading <small>Secondary text</small></h4>
+          <h5>h5. BYOB heading <small>Secondary text</small></h5>
+          <h6>h6. BYOB heading <small>Secondary text</small></h6>
+        </div>
+        <div class="code">
+          <pre><code>
+&lt;h1&gt;h1. BYOB heading &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h1&gt;
+&lt;h2&gt;h2. BYOB heading &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h2&gt;
+&lt;h3&gt;h3. BYOB heading &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h3&gt;
+&lt;h4&gt;h4. BYOB heading &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h4&gt;
+&lt;h5&gt;h5. BYOB heading &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h5&gt;
+&lt;h6&gt;h6. BYOB heading &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h6&gt;
+        </code></pre>
+        </div>
+      </div>
 
-  <h4>Lead body copy</h4>
-  <div class="example">
-  <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
-</div>
-<div class="code">
-  <xmp>
-    <p class="lead">Vivamus sagittis lacus...</p>
-  </xmp>
-</div>
+      <div class="container">
+        <h2 class="header">Body copy</h2>
+        <a class="anchor" name="body-copy"></a>
+        <div class="example">
+          <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec
+            ullamcorper nulla non metus auctor fringilla.</p>
+        </div>
+        <div class="code">
+          <pre><code>
+&lt;p&gt;Nullam quis risus...&lt;/p&gt;
+&lt;p&gt;Cum sociis...&lt;/p&gt;
+        </code></pre>
+        </div>
 
-  <h3>Addresses</h3>
+        <h3>Lead body copy</h3>
+        <div class="example">
+          <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+        </div>
+        <div class="code">
+          <pre><code>
+&lt;p class="lead"&gt;Vivamus sagittis lacus...&lt;/p&gt;
+        </code></pre>
+        </div>
+      </div>
 
-  <div class="example">
-    <address>
+      <div class="container">
+        <h2 class="header">Addresses</h2>
+        <a name="addresses"></a>
+        <div class="example">
+          <address>
         <strong>Twitter, Inc.</strong><br>
         1355 Market Street, Suite 900<br>
         San Francisco, CA 94103<br>
         <abbr title="Phone">P:</abbr> (123) 456-7890
       </address>
 
-    <address>
+          <address>
         <strong>Full Name</strong><br>
         <a href="mailto:#">first.last@example.com</a>
       </address>
-  </div>
+        </div>
 
-  <div class="code">
-    <xmp>
-      <address>
-          <strong>Twitter, Inc.</strong><br>
-          1355 Market Street, Suite 900<br>
-          San Francisco, CA 94103<br>
-          <abbr title="Phone">P:</abbr> (123) 456-7890
-        </address>
+        <div class="code">
+          <pre><code>
+&lt;address&gt;
+&lt;strong&gt;Twitter, Inc.&lt;/strong&gt;&lt;br&gt;
+  1355 Market Street, Suite 900&lt;br&gt;
+  San Francisco, CA 94103&lt;br&gt;
+&lt;abbr title="Phone"&gt;P:&lt;/abbr&gt; (123) 456-7890
+&lt;/address&gt;
 
-      <address>
-          <strong>Full Name</strong><br>
-          <a href="mailto:#">first.last@example.com</a>
-        </address>
-    </xmp>
-  </div>
-
-  <h3>Blockquotes</h3>
-
-  <div class="example">
-    <blockquote>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-    </blockquote>
-  </div>
-
-  <div class="code">
-    <xmp>
-      <blockquote>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-        <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-      </blockquote>
-    </xmp>
-  </div>
-
-  <div class="example">
-    <blockquote class="blockquote-reverse">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-    </blockquote>
-  </div>
-
-  <div class="code">
-    <xmp>
-      <blockquote class="blockquote-reverse">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-        <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-      </blockquote>
-    </xmp>
-  </div>
-
-  <h2>Buttons</h2>
-  <h3>Button tags</h3>
-
-  <div class="example">
-    <a class="btn btn-default" href="#" role="button">Link</a>
-    <button class="btn btn-default" type="submit">Button</button>
-    <input class="btn btn-default" type="button" value="Input">
-    <input class="btn btn-default" type="submit" value="Submit">
-  </div>
-
-  <div class="code">
-    <xmp>
-        <!-- Standard button -->
-      <button type="button" class="btn btn-default">Default</button>
-
-      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-      <button type="button" class="btn btn-primary">Primary</button>
-
-      <!-- Indicates a successful or positive action -->
-      <button type="button" class="btn btn-success">Success</button>
-
-      <!-- Contextual button for informational alert messages -->
-      <button type="button" class="btn btn-info">Info</button>
-
-      <!-- Indicates caution should be taken with this action -->
-      <button type="button" class="btn btn-warning">Warning</button>
-
-      <!-- Indicates a dangerous or potentially negative action -->
-      <button type="button" class="btn btn-danger">Danger</button>
-
-      <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
-      <button type="button" class="btn btn-link">Link</button>
-    </xmp>
-  </div>
-
-  <h3>Options</h3>
-
-  <div class="example">
-    <!-- Standard button -->
-    <button type="button" class="btn btn-default">Default</button>
-
-    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-    <button type="button" class="btn btn-primary">Primary</button>
-
-    <!-- Indicates a successful or positive action -->
-    <button type="button" class="btn btn-success">Success</button>
-
-    <!-- Contextual button for informational alert messages -->
-    <button type="button" class="btn btn-info">Info</button>
-
-    <!-- Indicates caution should be taken with this action -->
-    <button type="button" class="btn btn-warning">Warning</button>
-
-    <!-- Indicates a dangerous or potentially negative action -->
-    <button type="button" class="btn btn-danger">Danger</button>
-
-    <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
-    <button type="button" class="btn btn-link">Link</button>
-  </div>
-
-  <div class="code">
-    <xmp>
-      <!-- Standard button -->
-    <button type="button" class="btn btn-default">Default</button>
-
-    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-    <button type="button" class="btn btn-primary">Primary</button>
-
-    <!-- Indicates a successful or positive action -->
-    <button type="button" class="btn btn-success">Success</button>
-
-    <!-- Contextual button for informational alert messages -->
-    <button type="button" class="btn btn-info">Info</button>
-
-    <!-- Indicates caution should be taken with this action -->
-    <button type="button" class="btn btn-warning">Warning</button>
-
-    <!-- Indicates a dangerous or potentially negative action -->
-    <button type="button" class="btn btn-danger">Danger</button>
-
-    <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
-    <button type="button" class="btn btn-link">Link</button>
-    </xmp>
-  </div>
-
-  <h3>Sizes</h3>
-
-  <div class="example">
-    <p>
-      <button type="button" class="btn btn-primary btn-lg">Large button</button>
-      <button type="button" class="btn btn-default btn-lg">Large button</button>
-    </p>
-    <p>
-      <button type="button" class="btn btn-primary">Default button</button>
-      <button type="button" class="btn btn-default">Default button</button>
-    </p>
-    <p>
-      <button type="button" class="btn btn-primary btn-sm">Small button</button>
-      <button type="button" class="btn btn-default btn-sm">Small button</button>
-    </p>
-    <p>
-      <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
-      <button type="button" class="btn btn-default btn-xs">Extra small button</button>
-    </p>
-  </div>
-
-  <div class="code">
-    <xmp>
-      <p>
-        <button type="button" class="btn btn-primary btn-lg">Large button</button>
-        <button type="button" class="btn btn-default btn-lg">Large button</button>
-      </p>
-      <p>
-        <button type="button" class="btn btn-primary">Default button</button>
-        <button type="button" class="btn btn-default">Default button</button>
-      </p>
-      <p>
-        <button type="button" class="btn btn-primary btn-sm">Small button</button>
-        <button type="button" class="btn btn-default btn-sm">Small button</button>
-      </p>
-      <p>
-        <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
-        <button type="button" class="btn btn-default btn-xs">Extra small button</button>
-      </p>
-    </xmp>
-  </div>
-
-  <h3>Disabled</h3>
-
-  <div class="example">
-    <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary button</button>
-    <button type="button" class="btn btn-default btn-lg" disabled="disabled">Button</button>
-  </div>
-
-  <div class="code">
-    <xmp>
-      <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary button</button>
-      <button type="button" class="btn btn-default btn-lg" disabled="disabled">Button</button>
-    </xmp>
-  </div>
-
-  <h2>Button Groups: Toolbar</h2>
-
-  <div class="example">
-    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-    <div class="btn-group" role="group" aria-label="First group">
-      <button type="button" class="btn btn-default">1</button>
-      <button type="button" class="btn btn-default">2</button>
-      <button type="button" class="btn btn-default">3</button>
-      <button type="button" class="btn btn-default">4</button> </div>
-    <div class="btn-group" role="group" aria-label="Second group">
-      <button type="button" class="btn btn-default">5</button>
-      <button type="button" class="btn btn-default">6</button>
-      <button type="button" class="btn btn-default">7</button> </div>
-    <div class="btn-group" role="group" aria-label="Third group">
-      <button type="button" class="btn btn-default">8</button> </div>
-    </div>
-  </div>
-
-  <div class="code">
-    <xmp>
-      <div class="btn-toolbar" role="toolbar" aria-label="...">
-      <div class="btn-group" role="group" aria-label="...">...</div>
-      <div class="btn-group" role="group" aria-label="...">...</div>
-      <div class="btn-group" role="group" aria-label="...">...</div>
+&lt;address&gt;
+&lt;strong&gt;Full Name&lt;/strong&gt;&lt;br&gt;
+&lt;a href="mailto:#"&gt;first.last@example.com&lt;/a&gt;
+&lt;/address&gt;
+        </code></pre>
+        </div>
       </div>
-    </xmp>
-  </div>
 
-  <h2>Breadcrumbs</h2>
+      <div class="container">
+        <h2 class="header">Blockquotes</h2>
+        <a name="blockquotes"></a>
+        <div class="example">
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+            <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+          </blockquote>
+        </div>
 
-  <div class="example">
-  <ol class="breadcrumb">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Library</a></li>
-    <li class="active">Data</li>
-  </ol>
-</div>
-<div class="code">
-  <xmp>
-    <ol class="breadcrumb">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Library</a></li>
-      <li class="active">Data</li>
-    </ol>
-  </xmp>
-</div>
+        <div class="code">
+          <pre><code>
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;
+&lt;footer&gt;Someone famous in &lt;cite title="Source Title"&gt;Source Title&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+        </code></pre>
+        </div>
 
-  <h2>Pagination</h2>
-<div class="example">
-  <nav aria-label="Page navigation">
-    <ul class="pagination">
-      <li>
-        <a href="#" aria-label="Previous">
-          <span aria-hidden="true">&laquo;</span>
-        </a>
-      </li>
-      <li><a href="#">1</a></li>
-      <li><a href="#">2</a></li>
-      <li><a href="#">3</a></li>
-      <li><a href="#">4</a></li>
-      <li><a href="#">5</a></li>
-      <li>
-        <a href="#" aria-label="Next">
-          <span aria-hidden="true">&raquo;</span>
-        </a>
-      </li>
-    </ul>
-  </nav>
+        <div class="example">
+          <blockquote class="blockquote-reverse">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+          </blockquote>
+        </div>
 
-</div>
-<div class="code">
-  <xmp>
-    <nav aria-label="Page navigation">
-      <ul class="pagination">
-        <li>
-          <a href="#" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-          </a>
-        </li>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li>
-          <a href="#" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </xmp>
-</div>
+        <div class="code">
+          <pre><code>
+&lt;blockquote class="blockquote-reverse"&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;
+&lt;footer&gt;Someone famous in &lt;cite title="Source Title"&gt;Source Title&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+        </code></pre>
+        </div>
+      </div>
 
-  <h2>Labels</h2>
+      <div class="container">
+        <h2 class="header">Buttons</h2>
+        <a name="buttons"></a>
+        <div class="example">
+          <a class="btn btn-default" href="#" role="button">Link</a>
+          <button class="btn btn-default" type="submit">Button</button>
+          <input class="btn btn-default" type="button" value="Input">
+          <input class="btn btn-default" type="submit" value="Submit">
+        </div>
 
-  <div class="example">
-    <span class="label label-default">Default</span>
-    <span class="label label-primary">Primary</span>
-    <span class="label label-success">Success</span>
-    <span class="label label-info">Info</span>
-    <span class="label label-warning">Warning</span>
-    <span class="label label-danger">Danger</span>
-  </div>
+        <div class="code">
+          <pre><code>
+&lt;!-- Standard button --&gt;
+&lt;button type="button" class="btn btn-default"&gt;Default&lt;/button&gt;
 
-  <div class="code">
-    <xmp>
-      <span class="label label-default">Default</span>
-      <span class="label label-primary">Primary</span>
-      <span class="label label-success">Success</span>
-      <span class="label label-info">Info</span>
-      <span class="label label-warning">Warning</span>
-      <span class="label label-danger">Danger</span>
-    </xmp>
-  </div>
+&lt;!-- Provides extra visual weight and identifies the primary action in a set of buttons --&gt;
+&lt;button type="button" class="btn btn-primary"&gt;Primary&lt;/button&gt;
 
-  <h2>Badges</h2>
+&lt;!-- Indicates a successful or positive action --&gt;
+&lt;button type="button" class="btn btn-success"&gt;Success&lt;/button&gt;
 
-  <div class="example">
-    <a href="#">Inbox <span class="badge">42</span></a>
+&lt;!-- Contextual button for informational alert messages --&gt;
+&lt;button type="button" class="btn btn-info"&gt;Info&lt;/button&gt;
 
-    <button class="btn btn-primary" type="button">
+&lt;!-- Indicates caution should be taken with this action --&gt;
+&lt;button type="button" class="btn btn-warning"&gt;Warning&lt;/button&gt;
+
+&lt;!-- Indicates a dangerous or potentially negative action --&gt;
+&lt;button type="button" class="btn btn-danger"&gt;Danger&lt;/button&gt;
+
+&lt;!-- Deemphasize a button by making it look like a link while maintaining button behavior --&gt;
+&lt;button type="button" class="btn btn-link"&gt;Link&lt;/button&gt;
+      </code></pre>
+        </div>
+
+        <h3 class="header">Options</h3>
+
+        <div class="example">
+          <!-- Standard button -->
+          <button type="button" class="btn btn-default">Default</button>
+
+          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+          <button type="button" class="btn btn-primary">Primary</button>
+
+          <!-- Indicates a successful or positive action -->
+          <button type="button" class="btn btn-success">Success</button>
+
+          <!-- Contextual button for informational alert messages -->
+          <button type="button" class="btn btn-info">Info</button>
+
+          <!-- Indicates caution should be taken with this action -->
+          <button type="button" class="btn btn-warning">Warning</button>
+
+          <!-- Indicates a dangerous or potentially negative action -->
+          <button type="button" class="btn btn-danger">Danger</button>
+
+          <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+          <button type="button" class="btn btn-link">Link</button>
+        </div>
+
+        <div class="code">
+          <pre><code>
+&lt;!-- Standard button --&gt;
+&lt;button type="button" class="btn btn-default"&gt;Default&lt;/button&gt;
+
+&lt;!-- Provides extra visual weight and identifies the primary action in a set of buttons --&gt;
+&lt;button type="button" class="btn btn-primary"&gt;Primary&lt;/button&gt;
+
+&lt;!-- Indicates a successful or positive action --&gt;
+&lt;button type="button" class="btn btn-success"&gt;Success&lt;/button&gt;
+
+&lt;!-- Contextual button for informational alert messages --&gt;
+&lt;button type="button" class="btn btn-info"&gt;Info&lt;/button&gt;
+
+&lt;!-- Indicates caution should be taken with this action --&gt;
+&lt;button type="button" class="btn btn-warning"&gt;Warning&lt;/button&gt;
+
+&lt;!-- Indicates a dangerous or potentially negative action --&gt;
+&lt;button type="button" class="btn btn-danger"&gt;Danger&lt;/button&gt;
+
+&lt;!-- Deemphasize a button by making it look like a link while maintaining button behavior --&gt;
+&lt;button type="button" class="btn btn-link"&gt;Link&lt;/button&gt;
+      </code></pre>
+        </div>
+
+        <h3 class="header">Sizes</h3>
+
+        <div class="example">
+          <p>
+            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+            <button type="button" class="btn btn-default btn-lg">Large button</button>
+          </p>
+          <p>
+            <button type="button" class="btn btn-primary">Default button</button>
+            <button type="button" class="btn btn-default">Default button</button>
+          </p>
+          <p>
+            <button type="button" class="btn btn-primary btn-sm">Small button</button>
+            <button type="button" class="btn btn-default btn-sm">Small button</button>
+          </p>
+          <p>
+            <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+            <button type="button" class="btn btn-default btn-xs">Extra small button</button>
+          </p>
+        </div>
+
+        <div class="code">
+          <pre><code>
+&lt;p&gt;
+&lt;button type="button" class="btn btn-primary btn-lg"&gt;Large button&lt;/button&gt;
+&lt;button type="button" class="btn btn-default btn-lg"&gt;Large button&lt;/button&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;button type="button" class="btn btn-primary"&gt;Default button&lt;/button&gt;
+&lt;button type="button" class="btn btn-default"&gt;Default button&lt;/button&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;button type="button" class="btn btn-primary btn-sm"&gt;Small button&lt;/button&gt;
+&lt;button type="button" class="btn btn-default btn-sm"&gt;Small button&lt;/button&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;button type="button" class="btn btn-primary btn-xs"&gt;Extra small button&lt;/button&gt;
+&lt;button type="button" class="btn btn-default btn-xs"&gt;Extra small button&lt;/button&gt;
+&lt;/p&gt;
+      </code></pre>
+        </div>
+
+        <h3 class="header">Disabled</h3>
+
+        <div class="example">
+          <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary button</button>
+          <button type="button" class="btn btn-default btn-lg" disabled="disabled">Button</button>
+        </div>
+
+        <div class="code">
+          <pre><code>
+&lt;button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary button&lt;/button>
+&lt;button type="button" class="btn btn-default btn-lg" disabled="disabled">Button&lt;/button>
+      </code></pre>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="header">Button Groups: Toolbar</h2>
+        <a name="button-groups"></a>
+        <div class="example">
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group" role="group" aria-label="First group">
+              <button type="button" class="btn btn-default">1</button>
+              <button type="button" class="btn btn-default">2</button>
+              <button type="button" class="btn btn-default">3</button>
+              <button type="button" class="btn btn-default">4</button> </div>
+            <div class="btn-group" role="group" aria-label="Second group">
+              <button type="button" class="btn btn-default">5</button>
+              <button type="button" class="btn btn-default">6</button>
+              <button type="button" class="btn btn-default">7</button> </div>
+            <div class="btn-group" role="group" aria-label="Third group">
+              <button type="button" class="btn btn-default">8</button> </div>
+          </div>
+        </div>
+
+        <div class="code">
+          <pre><code>
+&lt;div class="btn-toolbar" role="toolbar" aria-label="..."&gt;
+&lt;div class="btn-group" role="group" aria-label="..."&gt;
+  &lt;button type="button" class="btn btn-default"&gt;1&lt;/button&gt;
+  &lt;button type="button" class="btn btn-default"&gt;2&lt;/button&gt;
+  &lt;button type="button" class="btn btn-default"&gt;3&lt;/button&gt;
+  &lt;button type="button" class="btn btn-default"&gt;4&lt;/button&gt;&lt;/div&gt;
+&lt;div class="btn-group" role="group" aria-label="..."&gt;
+  &lt;button type="button" class="btn btn-default"&gt;5&lt;/button&gt;
+  &lt;button type="button" class="btn btn-default"&gt;6&lt;/button&gt;
+  &lt;button type="button" class="btn btn-default"&gt;7&lt;/button&gt;&lt;/div&gt;
+&lt;div class="btn-group" role="group" aria-label="..."&gt;
+  &lt;button type="button" class="btn btn-default"&gt;8&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+      </code></pre>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="header">Breadcrumbs</h2>
+        <a name="breadcrumbs"></a>
+        <div class="example">
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="active">Data</li>
+          </ol>
+        </div>
+        <div class="code">
+          <pre><code>
+&lt;ol class="breadcrumb"&gt;
+&lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;Library&lt;/a&gt;&lt;/li&gt;
+&lt;li class="active"&gt;Data&lt;/li&gt;
+&lt;/ol&gt;
+      </code></pre>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="header">Pagination</h2>
+        <a name="pagination"></a>
+        <div class="example">
+          <nav aria-label="Page navigation">
+            <ul class="pagination">
+              <li>
+                <a href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li>
+                <a href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+        <div class="code">
+          <pre><code>
+&lt;nav aria-label="Page navigation"&gt;
+&lt;ul class="pagination"&gt;
+  &lt;li&gt;
+    &lt;a href="#" aria-label="Previous"&gt;
+      &lt;span aria-hidden="true"&gt;&laquo;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="#" aria-label="Next"&gt;
+      &lt;span aria-hidden="true"&gt;&raquo;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+      </code></pre>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="header">Labels</h2>
+        <a name="labels"></a>
+
+        <div class="example">
+          <span class="label label-default">Default</span>
+          <span class="label label-primary">Primary</span>
+          <span class="label label-success">Success</span>
+          <span class="label label-info">Info</span>
+          <span class="label label-warning">Warning</span>
+          <span class="label label-danger">Danger</span>
+        </div>
+
+        <div class="code">
+          <pre><code>
+&lt;span class="label label-default"&gt;Default&lt;/span&gt;
+&lt;span class="label label-primary"&gt;Primary&lt;/span&gt;
+&lt;span class="label label-success"&gt;Success&lt;/span&gt;
+&lt;span class="label label-info"&gt;Info&lt;/span&gt;
+&lt;span class="label label-warning"&gt;Warning&lt;/span&gt;
+&lt;span class="label label-danger"&gt;Danger&lt;/span&gt;
+      </code></pre>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="header">Badges</h2>
+        <a name="badges"></a>
+        <div class="example">
+          <a href="#">Inbox <span class="badge">42</span></a>
+
+          <button class="btn btn-primary" type="button">
     Messages <span class="badge">4</span>
     </button>
-  </div>
-
-  <div class="code">
-    <xmp>
-      <a href="#">Inbox <span class="badge">42</span></a>
-
-      <button class="btn btn-primary" type="button">
-        Messages <span class="badge">4</span>
-      </button>
-    </xmp>
-  </div>
-
-  <h2>Jumbotron</h2>
-
-  <div class="example">
-    <div class="jumbotron">
-      <h1>Hello, world!</h1>
-      <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-    </div>
-  </div>
-
-  <div class="code">
-    <xmp>
-      <div class="jumbotron">
-      <h1>Hello, world!</h1>
-      <p>...</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-      </div>
-    </xmp>
-  </div>
-
-  <h2>Page Header</h2>
-
-  <div class="example">
-    <div class="page-header">
-      <h1>Example page header <small>Subtext for header</small></h1>
-    </div>
-  </div>
-
-  <div class="code">
-    <xmp>
-      <div class="page-header">
-        <h1>Example page header <small>Subtext for header</small></h1>
-      </div>
-    </xmp>
-  </div>
-
-  <h2>Thumbnails</h2>
-
-  <div class="example">
-    <div class="row">
-      <a href="#" class="thumbnail">
-        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMxOSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTViMzljYTZlYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxNnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNWIzOWNhNmVjMSI+PHJlY3Qgd2lkdGg9IjMxOSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMTcuOTg0Mzc1IiB5PSI5Ny4yIj4zMTl4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
-            alt="Generic placeholder thumbnail">
-      </a>
-      <a href="#" class="thumbnail">
-        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMxOSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTViMzljYTZlYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxNnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNWIzOWNhNmVjMSI+PHJlY3Qgd2lkdGg9IjMxOSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMTcuOTg0Mzc1IiB5PSI5Ny4yIj4zMTl4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
-            alt="Generic placeholder thumbnail">
-      </a>
-      <a href="#" class="thumbnail">
-        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMxOSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTViMzljYTZlYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxNnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNWIzOWNhNmVjMSI+PHJlY3Qgd2lkdGg9IjMxOSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMTcuOTg0Mzc1IiB5PSI5Ny4yIj4zMTl4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
-            alt="Generic placeholder thumbnail">
-      </a>
-      <a href="#" class="thumbnail">
-        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMxOSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTViMzljYTZlYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxNnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNWIzOWNhNmVjMSI+PHJlY3Qgd2lkdGg9IjMxOSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMTcuOTg0Mzc1IiB5PSI5Ny4yIj4zMTl4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
-            alt="Generic placeholder thumbnail">
-      </a>
-    </div>
-
-  </div>
-
-  <div class="code">
-    <xmp>
-      <div class="row">
-        <div class="col-xs-6 col-md-3">
-          <a href="#" class="thumbnail">
-            <img src="..." alt="...">
-          </a>
         </div>
-        ...
+
+        <div class="code">
+          <pre><code>
+&lt;a href="#"&gt;Inbox &lt;span class="badge"&gt;42&lt;/span&gt;&lt;/a&gt;
+
+&lt;button class="btn btn-primary" type="button"&gt;
+  Messages &lt;span class="badge"&gt;4&lt;/span&gt;
+&lt;/button&gt;
+      </code></pre>
+        </div>
       </div>
-    </xmp>
-  </div>
 
-  <h2>Alerts</h2>
-<div class="example">
-  <div class="alert alert-success" role="alert">
-    <p><strong>Well done!</strong> You successfully read this important alert message.</p>
-  </div>
-  <div class="alert alert-info" role="alert">
-    <p><strong>Heads up!</strong> This alert needs your attention, but it's not super important.</p>
-  </div>
-  <div class="alert alert-warning" role="alert">
-    <p><strong>Warning!</strong> Better check yourself, you're not looking too good.</p>
-  </div>
-  <div class="alert alert-danger" role="alert">
-    <p><strong>Oh snap!</strong> Change a few things up and try submitting again.</p>
-  </div>
-</div>
-<div class="code">
-  <xmp>
-    <div class="alert alert-success" role="alert">
-      <p><strong>Well done!</strong> You successfully read this important alert message.</p>
-    </div>
-    <div class="alert alert-info" role="alert">
-      <p><strong>Heads up!</strong> This alert needs your attention, but it's not super important.</p>
-    </div>
-    <div class="alert alert-warning" role="alert">
-      <p><strong>Warning!</strong> Better check yourself, you're not looking too good.</p>
-    </div>
-    <div class="alert alert-danger" role="alert">
-      <p><strong>Oh snap!</strong> Change a few things up and try submitting again.</p>
-    </div>
-  </xmp>
-</div>
-  <h3>Links in alerts</h3>
-  <div class="example">
-  <div class="alert alert-success" role="alert">
-    <p><strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message.</a></p>
-  </div>
-  <div class="alert alert-info" role="alert">
-    <p><strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.</p>
-  </div>
-  <div class="alert alert-warning" role="alert">
-    <p><strong>Warning!</strong> Better check yourself, you're <a href="#" class="alert-link">not looking too good</a>.</p>
-  </div>
-  <div class="alert alert-danger" role="alert">
-    <p><strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.</p>
-  </div>
-</div>
-<div class="code">
-  <xmp>
-    <div class="alert alert-success" role="alert">
-      <p><strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message.</a></p>
-    </div>
-    <div class="alert alert-info" role="alert">
-      <p><strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.</p>
-    </div>
-    <div class="alert alert-warning" role="alert">
-      <p><strong>Warning!</strong> Better check yourself, you're <a href="#" class="alert-link">not looking too good</a>.</p>
-    </div>
-    <div class="alert alert-danger" role="alert">
-      <p><strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.</p>
-    </div>
-  </xmp>
-</div>
+      <div class="container">
+        <h2 class="header">Jumbotron</h2>
+        <a name="jumbotron"></a>
 
-  <h2>List Group</h2>
-  <div class="example">
-  <ul class="list-group">
-    <li class="list-group-item">Cras justo odio</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Morbi leo risus</li>
-    <li class="list-group-item">Porta ac consectetur ac</li>
-    <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
-</div>
-<div class="code">
-  <xmp>
-    <ul class="list-group">
-      <li class="list-group-item">Cras justo odio</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Morbi leo risus</li>
-      <li class="list-group-item">Porta ac consectetur ac</li>
-      <li class="list-group-item">Vestibulum at eros</li>
-    </ul>
-  </xmp>
-</div>
-  <h2>Panels</h2>
-<div class="example">
-  <div class="panel panel-default">
-    <div class="panel-body">
-      <p>Basic panel example (note there are many more examples)</p>
+        <div class="example">
+          <div class="jumbotron">
+            <h1>Hello, world!</h1>
+            <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
 
-    </div>
-  </div>
-</div>
-<div class="code">
-  <xmp>
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <p>Basic panel example (note there are many more examples)</p>
+        <div class="code">
+          <pre><code>
+&lt;div class="jumbotron"&gt;
+&lt;h1&gt;Hello, world!&lt;/h1&gt;
+&lt;p&gt;...&lt;/p&gt;
+&lt;p&gt;&lt;a class="btn btn-primary btn-lg" href="#" role="button"&gt;Learn more&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+      </code></pre>
+        </div>
+      </div>
 
+      <div class="container">
+        <h2 class="header">Page Header</h2>
+        <a name="page-header"></a>
+        <div class="example">
+          <div class="page-header">
+            <h1>Example page header <small>Subtext for header</small></h1>
+          </div>
+        </div>
+
+        <div class="code">
+          <pre><code>
+&lt;div class="page-header"&gt;
+&lt;h1&gt;Example page header &lt;small&gt;Subtext for header&lt;/small&gt;&lt;/h1&gt;
+&lt;/div&gt;
+      </code></pre>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="header">Thumbnails</h2>
+        <a name="thumbnails"></a>
+        <div class="example">
+          <div class="row">
+            <a href="#" class="thumbnail">
+              <img src="img/thumbnail.svg" alt="Generic placeholder thumbnail">
+            </a>
+            <a href="#" class="thumbnail">
+              <img src="img/thumbnail.svg" alt="Generic placeholder thumbnail">
+            </a>
+            <a href="#" class="thumbnail">
+              <img src="img/thumbnail.svg" alt="Generic placeholder thumbnail">
+            </a>
+            <a href="#" class="thumbnail">
+              <img src="img/thumbnail.svg" alt="Generic placeholder thumbnail">
+            </a>
+          </div>
+
+        </div>
+
+        <div class="code">
+          <pre><code>
+&lt;div class="row"&gt;
+&lt;div class="col-xs-6 col-md-3"&gt;
+  &lt;a href="#" class="thumbnail"&gt;
+    &lt;img src="..." alt="..."&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+  ...
+&lt;/div&gt;
+      </code></pre>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="header">Alerts</h2>
+        <a name="alerts"></a>
+        <div class="example">
+          <div class="alert alert-success" role="alert">
+            <p><strong>Well done!</strong> You successfully read this important alert message.</p>
+          </div>
+          <div class="alert alert-info" role="alert">
+            <p><strong>Heads up!</strong> This alert needs your attention, but it's not super important.</p>
+          </div>
+          <div class="alert alert-warning" role="alert">
+            <p><strong>Warning!</strong> Better check yourself, you're not looking too good.</p>
+          </div>
+          <div class="alert alert-danger" role="alert">
+            <p><strong>Oh snap!</strong> Change a few things up and try submitting again.</p>
+          </div>
+        </div>
+        <div class="code">
+          <pre><code>
+&lt;div class="alert alert-success" role="alert"&gt;
+&lt;p&gt;&lt;strong&gt;Well done!&lt;/strong&gt; You successfully read this important alert message.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="alert alert-info" role="alert"&gt;
+&lt;p&gt;&lt;strong&gt;Heads up!&lt;/strong&gt; This alert needs your attention, but it's not super important.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;
+&lt;p&gt;&lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're not looking too good.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="alert alert-danger" role="alert"&gt;
+&lt;p&gt;&lt;strong&gt;Oh snap!&lt;/strong&gt; Change a few things up and try submitting again.&lt;/p&gt;
+&lt;/div&gt;
+      </code></pre>
+        </div>
+
+        <h3 class="header">Dismissable alerts</h3>
+        <div class="example">
+          <div class="alert alert-warning alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="$('.alert-dismissible').hide()"><span aria-hidden="true">&times;</span></button>
+            <strong>Warning!</strong> Better check yourself, you're not looking too good.
+          </div>
+        </div>
+        <div class="code">
+          <pre><code>
+&lt;div class="alert alert-warning alert-dismissible" role="alert"&gt;
+&lt;button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="$('.alert-dismissible').hide()"&gt;
+&lt;span aria-hidden="true"&gt;&times;&lt;/span&gt;&lt;/button&gt;
+&lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're not looking too good.
+&lt;/div&gt;
+      </code></pre>
+        </div>
+
+        <h3 class="header">Links in alerts</h3>
+        <div class="example">
+          <div class="alert alert-success" role="alert">
+            <p><strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message.</a></p>
+          </div>
+          <div class="alert alert-info" role="alert">
+            <p><strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.</p>
+          </div>
+          <div class="alert alert-warning" role="alert">
+            <p><strong>Warning!</strong> Better check yourself, you're <a href="#" class="alert-link">not looking too good</a>.</p>
+          </div>
+          <div class="alert alert-danger" role="alert">
+            <p><strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.</p>
+          </div>
+        </div>
+        <div class="code">
+          <pre><code>
+&lt;div class="alert alert-success" role="alert"&gt;
+&lt;p&gt;&lt;strong&gt;Well done!&lt;/strong&gt; You successfully read &lt;a href="#" class="alert-link"&gt;this important alert message.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="alert alert-info" role="alert"&gt;
+&lt;p&gt;&lt;strong&gt;Heads up!&lt;/strong&gt; This &lt;a href="#" class="alert-link"&gt;alert needs your attention&lt;/a&gt;, but it's not super important.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;
+&lt;p&gt;&lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're &lt;a href="#" class="alert-link"&gt;not looking too good&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="alert alert-danger" role="alert"&gt;
+&lt;p&gt;&lt;strong&gt;Oh snap!&lt;/strong&gt; &lt;a href="#" class="alert-link"&gt;Change a few things up&lt;/a&gt; and try submitting again.&lt;/p&gt;
+&lt;/div&gt;
+      </code></pre>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="header">List Group</h2>
+        <a name="list-group"></a>
+        <div class="example">
+          <ul class="list-group">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        </div>
+        <div class="code">
+          <pre><code>
+&lt;ul class="list-group"&gt;
+&lt;li class="list-group-item"&gt;Cras justo odio&lt;/li&gt;
+&lt;li class="list-group-item"&gt;Dapibus ac facilisis in&lt;/li&gt;
+&lt;li class="list-group-item"&gt;Morbi leo risus&lt;/li&gt;
+&lt;li class="list-group-item"&gt;Porta ac consectetur ac&lt;/li&gt;
+&lt;li class="list-group-item"&gt;Vestibulum at eros&lt;/li&gt;
+&lt;/ul&gt;
+      </code></pre>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="header">Panels</h2>
+        <a name="panels"></a>
+        <div class="example">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p>Basic panel example (note there are many more examples)</p>
+            </div>
+          </div>
+        </div>
+        <div class="code">
+          <pre><code>
+&lt;div class="panel panel-default"&gt;
+&lt;div class="panel-body"&gt;
+  &lt;p&gt;Basic panel example (note there are many more examples)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+      </code></pre>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="header">Wells</h2>
+        <a name="wells"></a>
+        <div class="example">
+          <div class="well">
+            <p>Look, I'm in a well!</p>
+          </div>
+        </div>
+        <div class="code">
+          <pre><code>
+&lt;div class="well"&gt;
+&lt;p&gt;Look, I'm in a well!&lt;/p&gt;
+&lt;/div&gt;
+      </code></pre>
+        </div>
       </div>
     </div>
-  </xmp>
-</div>
-  <h2>Wells</h2>
-<div class="example">
-  <div class="well">
-    <p>Look, I'm in a well!</p>
   </div>
-</div>
-<div class="code">
-  <xmp>
-    <div class="well">
-      <p>Look, I'm in a well!</p>
-    </div>
-  </xmp>
-</div>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
